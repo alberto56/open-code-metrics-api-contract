@@ -11,6 +11,7 @@ The client can obtain metrics for a project $PROJECT (where $PROJECT is a git re
 The /tmp/$REQUESTID/info.txt file shall contain:
 
     Request id: <the request id>
+    Created: YYYY-MM-DD
     Repo: <the git repo>
     Hash: <the hash>
     Branch: <the git branch>
