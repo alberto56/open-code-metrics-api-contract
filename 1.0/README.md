@@ -12,8 +12,8 @@ The /tmp/$REQUESTID/info.txt file shall contain:
 
     Request id: <the request id>
     Repo: <the git repo>
-    Hash: <the hash> (will always be latest)
-    Branch: <the git branch> (will always be default)
+    Hash: <the hash>
+    Branch: <the git branch>
     Subfolder: <the subfolder>
     Status: received|queue|processing|done
     Metrics: /path/to/metrics/folder
