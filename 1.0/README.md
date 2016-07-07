@@ -8,7 +8,7 @@ The client can obtain metrics for a project $PROJECT (where $PROJECT is a git re
     * you will be able to check on the progress of your request for 72 hours by typing
     * ssh $USER@$SERVER "cat /tmp/$REQUESTID/info.txt"
 
-The /tmp/$REQUESTID/info.txt file shall contain:
+The /tmp/code-metrics/$REQUESTID file shall contain:
 
     Request id: <the request id>
     Created: YYYY-MM-DD
