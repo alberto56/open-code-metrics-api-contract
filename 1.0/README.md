@@ -19,6 +19,10 @@ The /tmp/$REQUESTID/info.txt file shall contain:
     Status: received|queue|processing|done
     Metrics: /path/to/metrics/folder
 
+(Created date is in UTC timezone.)
+(Metrics folder will not necessarily be set before the status is "done".)
+(Hash, Branch, and Subfolder are optional.)
+
 Once the status is "done", you can find CSV files in the /path/to/metrics/folder:
 
     * scp -r $USER@$SERVER:/path/to/metrics/folder/*csv
